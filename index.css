@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e2e8f038;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.min__contnts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #E2E8F0;
+    font-size: 72px;
+    line-height: 2.5;
+    font-family: 'Inter';
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 32px;
+    margin: 1rem 0 2rem 0 !important;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.9rem 1.9rem 1.9rem;
+
+    width: 400px;
+    min-height: 105px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.Title {
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.subTitles {
+    word-break: keep-all;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 1px;
+    color: #6B7280;
+
+}
+
+.add__cards {
+    border-radius: 50%;
+
+    width: 33px;
+    height: 33px;
+    display: flex;
+    border: 3.5px solid #94A3B8;
+    margin: 3px;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+    font-weight: bolder;
+}
+
+.icons {
+    color: #94A3B8;
+    font-size: 22px;
+
+}
+
+.Tilts {
+    height: 45px;
+    border: none;
+
+
+}
+
+.subTilte {
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 2.7rem;
+}
+
+.form__model {
+    background-color: #FFFFFF;
+    padding: .5rem  2.5rem;
+    border-radius: 4px;
+    min-height: 333px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(128, 128, 128, 0.142) !important;
+    border-radius: 4px;
+    /* outline: none; */
+    margin: 5px 0;
+    padding: 0 0 0 12px;
+    color: #747678;
+    width: 390px;
+    outline: none;
+}
+
+.icons__actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.false{
+    margin-right: 1.5rem !important;
+}
