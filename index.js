@@ -5,7 +5,7 @@ xhr.onreadystatechange = () => {
     if (xhr.readyState === 4 && xhr.status === 200) {
         const data = JSON.parse(xhr.response)
         console.log(data);
-        const html = data.slice(0, 3)
+        const html = data.slice(0, 4)
             .map(item => {
                 return ` <div id="cards" class="card">
          <p id="Title" class="Title"> ${item.title.substr(0, 15)}</p>

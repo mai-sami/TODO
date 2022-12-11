@@ -74,6 +74,22 @@ h3 {
     justify-content: center;
     font-size: 33px;
     font-weight: bolder;
+    position: fixed;
+    z-index: 999999999;
+    bottom: 1%;
+}
+.add__cards__iconsed {
+    border-radius: 50%;
+
+    width: 33px;
+    height: 33px;
+    display: flex;
+    border: 3.5px solid #94A3B8;
+    margin: 3px;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+    font-weight: bolder;
 }
 
 .icons {
